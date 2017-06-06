@@ -243,7 +243,7 @@ a#student_side article p
 	text-decoration: none;
 	color: rgb(0, 204, 0);
 }
-.user_form span
+.user_form label
 {
 	display: block;
 	margin: 0 auto;
@@ -257,6 +257,10 @@ a#student_side article p
 {
 	width: 80%;
 	height: 200px;
+}
+.question label
+{
+	display: block;
 }
 
 .menu
@@ -317,6 +321,50 @@ a#student_side article p
  	top: 50%;
  	left: 50%;
   	transform: translate(-50%, -50%);
+}
+
+.groups
+{
+	padding-left: 2px;
+	position: relative;
+	width: 80%;
+	min-height: 200px;
+	margin: 5% auto;
+	background: white;
+}
+.groups a
+{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 30px;
+	background: rgba(0, 0, 0, .1);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.30s ease-in-out;
+}
+.groups a:hover
+{
+	border: 1px solid rgb(0, 230, 0);
+	background: rgb(217, 240, 217);
+}
+.groups a:active
+{
+	background: rgb(0, 204, 0);
+	color: white;
+}
+.groups a p
+{
+	padding-left: 10px;
+	font-size: 1.5em;
+}
+
+.statistics
+{
+	position: relative;
+	width: 90%;
+	min-height: 400px;
+	margin: 5% auto;
+	background: white;
 }
 
 footer
