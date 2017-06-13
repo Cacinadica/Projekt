@@ -9,22 +9,22 @@
 	<main class="professor">
 		<nav>
 			<ul>
-				<li><a href="pick_a_side.html">Home</a></li>
-				<li><a href="#">Questions</a></li>
-				<li><a href="#">Profile</a></li>
+				<li><a href="professor_menu.html">Home</a></li>
+				<li><a href="professor_ask.html">Questions</a></li>
+				<li><a href="pick_a_side.html">Profile</a></li>
 				<li><a href="index.html">Log Out</a></li>
 			</ul>
 		</nav>
 		<div class="center_table user_form question" style="top: 45%">
-			<form method="post" action="professor_menu.html">
+			<form method="post" action="professor_statistics.html">
 				<input type="text" name="title" placeholder="Question title">
 				<textarea name="question" placeholder="Question: "></textarea>
 				<input type="text" name="answer_a" placeholder="A: ">
 				<input type="text" name="answer_b" placeholder="B: ">
 				<input type="text" name="answer_c" placeholder="C: ">
 				<input type="text" name="answer_d" placeholder="D: ">
-				<span><input type="checkbox" name="anonymous"><label for="anonymous">Anonymous answer</label></span>
-				<span><input type="checkbox" name="limit"><label for="limit">Time Limit</label></span>
+				<label for="anonymous"><input type="checkbox" id="anonymous" name="anonymous">Anonymous answer</label>
+				<label for="limit"><input type="checkbox" id="limit" name="limit">Time Limit</label>
 				<input type="submit" value="Ask">
 			</form>
 		</div>
